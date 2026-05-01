@@ -1,0 +1,94 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  background: #eef2f7;
+  line-height: 1.6;
+}
+
+/* HEADER */
+header {
+  background: #1e3a8a;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+.contador {
+  margin-top: 10px;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+/* MENU */
+nav {
+  background: #2563eb;
+  padding: 10px;
+  text-align: center;
+}
+
+nav a {
+  color: white;
+  margin: 0 10px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+/* CONTEÚDO */
+.container {
+  max-width: 900px;
+  margin: 30px auto;
+  background: white;
+  padding: 25px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+h2 {
+  margin-top: 20px;
+  color: #1e3a8a;
+}
+
+ul {
+  margin-left: 20px;
+}
+
+/* DESTAQUE */
+.highlight {
+  background: #dbeafe;
+  padding: 10px;
+  border-left: 5px solid #2563eb;
+  margin: 15px 0;
+}
+
+/* BOTÃO */
+button {
+  background: #2563eb;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+button:hover {
+  background: #1e40af;
+}
+
+/* FOOTER */
+footer {
+  text-align: center;
+  padding: 20px;
+  margin-top: 30px;
+  background: #1e3a8a;
+  color: white;
+}
